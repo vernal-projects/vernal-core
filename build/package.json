@@ -1,0 +1,13 @@
+{
+  "name": "@vernal-projects/framework-core",
+  "version": "0.3.0",
+  "description": "Vernal Framework - Core",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vernal-projects/vernal-core.git"
+  },
+  "author": "D M R Suranga <d.m.ranjith.sura@gmail.com>",
+  "license": "Copyright (c) 2024 - D M R Suranga. All Rights Reserved"
+}

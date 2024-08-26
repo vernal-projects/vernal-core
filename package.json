@@ -1,0 +1,20 @@
+{
+  "name": "@vernal-projects/framework-core",
+  "version": "0.3.0",
+  "main": "dist/core/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && nodemon --enable-source-maps dist/main.js",
+    "clean": "rm -rf dist",
+    "compile": "tsc --watch",
+    "build": "tsc",
+    "cleanBuild": "rm -rf dist && tsc",
+    "build:prod": "build/build-script.sh"
+  },
+  "author": "D M R Suranga <d.m.ranjith.sura@gmail.com>",
+  "license": "Copyright (c) 2024 - D M R Suranga. All Rights Reserved",
+  "devDependencies": {
+    "nodemon": "latest",
+    "@types/node": "latest"
+  }
+}
